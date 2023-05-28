@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Главная - шаг №1</title>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../rs-app/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../rs-app/image/favicon.png" />
+</head>
+
+<body class="page" id="body">
+    <header class="b-header">
+        <div class="container">
+            <a href="/" class="b-header-link">
+                <picture>
+                    <source srcset="../rs-app/image/b_header_mobile__logo.svg" media="(max-width: 320px)">
+                    <img src="../rs-app/image/b_header__logo.svg"  class="b-header-logo" alt="логотип">
+                </picture>                  
+            </a>
+        </div>
+    </header>
+    
+    <!-- Блок с баннером -->
+    <section class="b-banner">
+        <div class="container">
+            <p class="b-banner__title b-banner__title-desktop">Отправьте одну заявку на кредит<br> или рассрочку сразу в несколько банков</p>
+            <p class="b-banner__title b-banner__title-tablet">Отправьте одну заявку<br> на кредит или рассрочку сразу<br> в несколько банков</p>
+            <p class="b-banner__title b-banner__title-mobile">Отправьте одну заявку<br> на кредит или рассрочку<br> сразу в несколько банков</p>
+            <p class="b-banner__subtitle b-banner__subtitle-desktop">Менеджер свяжется с вами по телефону <br>и расскажет об одобренных предложениях</p>
+            <p class="b-banner__subtitle b-banner__subtitle-mobile">Менеджер свяжется с вами<br> по телефону и расскажет<br> об одобренных<br> предложениях</p>
+        </div>
+        <picture>
+            <source srcset="../rs-app/image/b_banner_mobile__img1.png" media="(max-width: 481px)">
+            <source srcset="../rs-app/image/b_banner_tablet__img1.png" media="(max-width: 900px)">
+            <img src="../rs-app/image/b_banner_img1.png" class="b-banner__img" alt="форма">
+        </picture>
+    </section>
+    <!-- Блок с баннером -->
+
+    <section class="b-steps">
+        <div class="container">
+            <div class="b-steps__step b-steps__step-first">
+                <!-- Заголовок шага -->
+                <div class="b-step__head">
+                    <p class="b-step__head-title">Шаг 1</p>
+                    <p class="b-step__head-subtitle">Данные о Клиенте</p>
+                    <ul class="b-step__line-list">
+                        <li class="b-step__line-list-item active"></li>
+                        <li class="b-step__line-list-item"></li>
+                        <li class="b-step__line-list-item"></li>
+                    </ul>
+                </div>
+                <!-- Заголовок шага -->
+
+                <!-- Контент шага -->
+                <div class="b-step__items">
+                    <!-- Поле - Фамилия -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style" placeholder="Петров">
+                            <label class="b-input__placeholder">Фамилия</label>
+                        </div>
+                    </div>
+                    <!-- Поле - Имя -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style" placeholder="Иван">
+                            <label class="b-input__placeholder">Имя</label>
+                        </div>
+                    </div>
+                    <!-- Поле - Отчество -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style" placeholder="Владимирович">
+                            <label class="b-input__placeholder">Отчество</label>                        
+                        </div>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="b-input__checkbox">
+                            <span>Нет отчества</span>
+                        </label>
+                    </div>
+                    <!-- Поле - Пол -->
+                    <div class="b-step__item b-step__item-dropdown">
+                        <div class="b-input">
+                        <div class="b-input__control b-input__style">Мужской</div>
+                        <label class="b-input__placeholder">Пол</label>    
+                        <div class="b-input__dropdown">
+                            <ul class="b-input__dropdown-list">
+                            <li class="b-input__dropdown-item b-input__style animate">Мужской</li>
+                            <li class="b-input__dropdown-item b-input__style animate">Женский</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Поле - Дата рождения -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style mask__input-date" placeholder="99.99.9999">
+                            <label class="b-input__placeholder">Дата рождения</label>
+                        </div>
+                    </div>
+                    <!-- Поле - Мобильный телефон -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style mask__input-phone" placeholder="+7 (999) 999-99-99">
+                            <label class="b-input__placeholder">Мобильный телефон</label>
+                        </div>
+                    </div>
+                    <!-- Поле - Код проумоутера -->
+                    <div class="b-step__item">
+                        <div class="b-input">
+                            <input type="text" class="b-input__control b-input__style" placeholder="Введите код">
+                            <label class="b-input__placeholder">Код проумоутера*</label>
+                        </div>
+                        <p class="b-step__item-message">Если есть</p>
+                    </div>
+                </div>             
+                <div class="b-steps__line"></div>
+                <div class="b-steps__footer">
+                    <div class="b-steps__footer-privacy">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="b-input__checkbox">
+                            <span>
+                                <a class="custom-checkbox-href">Соглашаюсь с Правилами заполнения заявки и присоединяюсь к Соглашению об использовании ПЭП</a>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="b-steps__footer-box">
+                        <button class="b-steps__footer-box-button b-steps__footer-box-button-prev animate">
+                            <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="b-steps__footer-box-button-prev-icon">
+                                <path d="M6 9L2 5L6 1" stroke="#84B245" stroke-width="2"/>
+                            </svg>
+                            Назад
+                        </button>
+                        <button class="b-steps__footer-box-button b-steps__footer-box-button-next animate button">Далее</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>    
+
+    <footer class="b-footer">
+        <div class="container">
+            <p class="b-footer__copy b-footer__text">© 2017 - 2021 АО «Банк Русский Стандарт».</p>
+            <p class="b-footer__license b-footer__text">Генеральная лицензия Банка России № 2289<br> выдана бессрочно<br> 19 ноября 2014 года</p>
+        </div>
+    </footer>
+
+</body>
+
+
+<script src="../rs-app/js/myscript.js"></script>
+</html>
