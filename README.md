@@ -1,6 +1,8 @@
 # rs-app
-<a href="https://mamaev-andrey.github.io/rs-app/step1.html">1 шаг</a>
-<a href="https://mamaev-andrey.github.io/rs-app/step2.html">2 шаг</a>
-<a href="https://mamaev-andrey.github.io/rs-app/step3.html">3 шаг</a>
-<a href="https://mamaev-andrey.github.io/rs-app/step4.html">4 шаг</a>
-<a href="https://mamaev-andrey.github.io/rs-app/step5.html">5 шаг</a>
+<div class="b-steps-box-links" style="display: flex;flex-direction: column;gap: 20px;">
+    <a href="https://mamaev-andrey.github.io/rs-app/step1.html" class="b-steps-box-link">1 шаг</a>
+    <a href="https://mamaev-andrey.github.io/rs-app/step2.html" class="b-steps-box-link">2 шаг</a>
+    <a href="https://mamaev-andrey.github.io/rs-app/step3.html" class="b-steps-box-link">3 шаг</a>
+    <a href="https://mamaev-andrey.github.io/rs-app/step4.html" class="b-steps-box-link">4 шаг</a>
+    <a href="https://mamaev-andrey.github.io/rs-app/step5.html" class="b-steps-box-link">5 шаг</a>
+</div>
